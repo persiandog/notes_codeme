@@ -8,5 +8,5 @@ print("Lowercase Letters: ", sum(1 for c in txt if c.islower()))
 print("Digits: ", sum(1 for c in txt if c.isdigit()))
 
 # needs work:
-#special_chars: [#, $, %, ^, &, *, ., ', :]
-#print("Special characters: ", sum(1 for c in txt if c in special_chars))
+#special_chars = [#, $, %, ^, &, *, ., ', :]
+#print("Special characters: ", sum(1 for c if any c in speial_chars))
